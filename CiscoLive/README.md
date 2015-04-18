@@ -3,56 +3,64 @@
 * Vallard Benincosa - Application Delivery Architect
 * BRKCLD-1003
 
-## DevOps is So Hot Right now (situation)
+## Intro
+### DevOps is So Hot Right now (situation)
 * Mugatu Picture
   * Developers have won
   * Open Source and DevOps aren't mandatory, but neither is survival
 
-## But we're not doing it (Concerns / Implications)
+### But we're not doing it. (Concerns / Implications)
 * Show someone worried
   * "I don't want to be a programmer"
   * "I'll be out of a job"
   * No budget this year, all to lines of business.
 
-## But you can (Position / Action / Benefit)
+### But we can. (Position / Action / Benefit)
 * Don't be afraid
   * Many think you have to be a programmer, when the reality is "Not really"
 * You'll understand what all these tools are. 
 * Benefit: All Kinds of stuff
 
 ## Agenda
-* Defining DevOps and why we use it
-* Tools 
-* Practical Examples 
+* Part 1: Defining DevOps and why we use it
+* Part 2: Tools 
+* Part 3: Practical Examples 
 
-## Defining DevOps
+## Part 1: Defining DevOps
 * Industry
 * Who Does it where
 * Why they do it. 
-
 
 ### Industry
 * Bi-Modal IT
 * Developer Changes
 * What DevOps is now
+* How we do it
 
 #### Bi-Modal IT
 * Lydia Leong
 * 90% percent fail: Old tools repurposed isn't working
 * Lines of business dismissing IT
 
-#### The rise of the tester
+#### Changes in Development
 * TDD 
 * Rubber Chicken story
 
 #### What DevOps is Now
 * Gene Kim "The Phoenix Project": "Set of cultural norms and technical practices that enable this fast flow of work from dev through test through operations while preserving word class reliability."
 
-### Who does it
+#### How we do it 
+* Who does it
+* Why we do it
+* The mindset
+* Breaking things up
+* Continuous Integration
+
+##### Who does it
 * Unicorns: Facebook, Google, Usual Suspects
 * Horses: Macy's, you can do it too!
 
-### Why do it
+##### Why do it
 * Most people are wrong.  
 * Most features don't lead to more profits. 
 * HiPPO
@@ -60,10 +68,11 @@
 improve our ability to adapt rapidly and effectively to new information"
 -- Lean Enterprise
 
-### The Mindset
+##### The Mindset
 * "Do the least amount of work to deliver the expected outcome"
+* Don't forget: It's the application
 
-### How we Do it
+##### Breaking things up
 * Make Engineering safe and economic by working in small batches
   * Shorter Lead times
   * Higher quality work
@@ -76,7 +85,7 @@ improve our ability to adapt rapidly and effectively to new information"
 Source: Lean Enterprise: How High performance organizations innovate at 
 scale: Chapter 8
 
-### Continuous Integration
+##### Continuous Integration
 "The practice of working in small batches and using automated tests to 
 detect and reject changes that introduce a regression."
 
@@ -88,3 +97,63 @@ minutes?
 
 Source: Lean Enterprise: How High performance organizations innovate at 
 scale: Chapter 8
+
+
+### End of Part 1:
+Map of the big picture:
+Continuous Delivery
+Continuous Integration
+DevOps
+Configuration Management
+
+
+## Part 2: Look at the Tools
+* Source Code Repositories
+* Automated Build Processes 
+* Collaboration Tools
+* Configuration Management Tools
+
+### Source Code Repositories
+* Git
+* Docker Registry
+
+#### Git
+* Git / GitLab
+* Linus Torvalds 
+
+Why git won: it made branching simple
+Why Github shutdown Google Code
+
+#### Containers
+* Why Docker
+* Dockerhub , Registry 2.0
+* Google Container Registry? (https://cloud.google.com/tools/container-registry/) - gcr.io/myproj
+
+### Automated Build Processes
+* Jenkins
+* Travis CI
+* Team City
+
+### Collaboration Tools
+* Gerrit
+* trello 
+* hipchat
+
+### Configuration management tools (What you thought this talk was about)
+* Audience Poll:  What are you using?
+  * Puppet
+  * Chef
+  * Ansible
+  * Salt
+  * Terraform
+  * CloudFormation
+  * Heat
+
+Worth noting some minor Packer
+
+### Tools for users
+* Vagrant
+* boot2docker
+
+## Part 3:  Architectures
+* Demo of Lawngnomed.com
