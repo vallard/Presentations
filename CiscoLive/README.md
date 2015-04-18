@@ -10,7 +10,7 @@
   * Open Source and DevOps aren't mandatory, but neither is survival
 
 ### But we're not doing it. (Concerns / Implications)
-![Is everyone hanging out without me?][ http://ecx.images-amazon.com/images/I/51O5o-cFKQL._SY344_BO1,204,203,200_.jpg ]
+![Is everyone hanging out without me?]( http://ecx.images-amazon.com/images/I/51O5o-cFKQL._SY344_BO1,204,203,200_.jpg "Are we missing out on what the cool kids are doing?")
 * Is everyone hanging out without me?
   * "I don't want to be a programmer"
   * "I'll be out of a job"
