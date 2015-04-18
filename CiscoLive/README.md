@@ -51,3 +51,40 @@
 ### Who does it
 * Unicorns: Facebook, Google, Usual Suspects
 * Horses: Macy's, you can do it too!
+
+### Why do it
+* Most people are wrong.  
+* Most features don't lead to more profits. 
+* HiPPO
+* "Instead of trying to get better at predicting the future, we should 
+improve our ability to adapt rapidly and effectively to new information"
+-- Lean Enterprise
+
+### The Mindset
+* "Do the least amount of work to deliver the expected outcome"
+
+### How we Do it
+* Make Engineering safe and economic by working in small batches
+  * Shorter Lead times
+  * Higher quality work
+* Requirements
+  * Safe: Deployment pipeline
+  * Quick: How long does it take to get a single line of code to your customers?
+  * Sustainable: "If it hurts, do it more often" eg: Testing, Integration
+  * Story of customer who does updates once a year.  Yikes! The night of hell
+
+Source: Lean Enterprise: How High performance organizations innovate at 
+scale: Chapter 8
+
+### Continuous Integration
+"The practice of working in small batches and using automated tests to 
+detect and reject changes that introduce a regression."
+
+How do we know if we're doing it?
+* Are developers checking into the trunk at least once a day?
+* Does every check in kick off a build process that runs automatic tests?
+* When the build and test process fails, does the team fix within a few
+minutes?
+
+Source: Lean Enterprise: How High performance organizations innovate at 
+scale: Chapter 8
