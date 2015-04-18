@@ -162,6 +162,12 @@ Why Github shutdown Google Code
 * Demo of Lawngnomed.com
   * Using COPC APIs with Ansible, Jenkins, Docker, all internal
 
+* Yelp
+  * Building System Packages (Evan Krall) @meatmanek
+    * Build a system package
+    * Make it available on internal package repo
+  https://vimeo.com/112725792
+
 * Example on AWS
 
 * Example with UCS Director?  Intercloud Fabric?
