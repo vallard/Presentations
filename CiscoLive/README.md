@@ -17,6 +17,7 @@
   * No budget this year, all to lines of business.
 
 ### But we can. (Position / Action / Benefit)
+![Be the walrus]( http://bunchfamily.ca/wp-content/uploads/2013/04/Broderick-huh.jpg )
 * But we can be the Walrus
   * Many think you have to be a programmer, when the reality is "Not really"
 * You'll understand what all these tools are. 
