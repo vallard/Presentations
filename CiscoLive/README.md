@@ -4,7 +4,7 @@
 * BRKCLD-1003
 
 ## Intro
-### DevOps is So Hot Right now (situation)
+### DevOps... So Hot Right now (situation)
 ![Devops... so hot right now](http://gabrielchapman.com/wp-content/uploads/2015/02/DevOps.jpg "Devops is so hot right now")
   * Developers have won
   * Open Source and DevOps aren't mandatory, but neither is survival
@@ -18,6 +18,8 @@
 
 ### But we can. (Position / Action / Benefit)
 ![Be the walrus]( http://bunchfamily.ca/wp-content/uploads/2013/04/Broderick-huh.jpg )
+![Be the walrus]( https://www.lyricculture.com/dev/wp-content/uploads/2013/05/I_Am_The_Walrus_Lg1.jpg )
+![Be the walrus]( https://hughdellar.files.wordpress.com/2012/09/thebeatlesthewalruswasntpaul.jpg )
 * But we can be the Walrus
   * Many think you have to be a programmer, when the reality is "Not really"
 * You'll understand what all these tools are. 
@@ -151,7 +153,7 @@ Why Github shutdown Google Code
   * CloudFormation
   * Heat
 
-Worth noting some minor Packer
+(Packer, Consul, ...)
 
 ### Tools for users
 * Vagrant
