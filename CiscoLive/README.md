@@ -160,3 +160,16 @@ Why Github shutdown Google Code
 
 ## Part 3:  Architectures
 * Demo of Lawngnomed.com
+  * Using COPC APIs with Ansible, Jenkins, Docker, all internal
+
+* Example on AWS
+
+* Example with UCS Director?  Intercloud Fabric?
+
+## Closing
+Hopefully in this talk you gained:
+
+* An Understanding of the state of the industry and why this came about
+* An Understanding of the tools
+* How they work together
+
