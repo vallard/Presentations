@@ -10,13 +10,14 @@
   * Open Source and DevOps aren't mandatory, but neither is survival
 
 ### But we're not doing it. (Concerns / Implications)
-* Show someone worried
+![Is everyone hanging out without me?][ http://ecx.images-amazon.com/images/I/51O5o-cFKQL._SY344_BO1,204,203,200_.jpg ]
+* Is everyone hanging out without me?
   * "I don't want to be a programmer"
   * "I'll be out of a job"
   * No budget this year, all to lines of business.
 
 ### But we can. (Position / Action / Benefit)
-* Don't be afraid
+* But we can be the Walrus
   * Many think you have to be a programmer, when the reality is "Not really"
 * You'll understand what all these tools are. 
 * Benefit: All Kinds of stuff
