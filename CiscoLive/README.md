@@ -5,7 +5,7 @@
 
 ## Intro
 ### DevOps is So Hot Right now (situation)
-* Mugatu Picture
+![Devops... so hot right now](http://gabrielchapman.com/wp-content/uploads/2015/02/DevOps.jpg "Devops is so hot right now")
   * Developers have won
   * Open Source and DevOps aren't mandatory, but neither is survival
 
