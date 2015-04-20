@@ -88,6 +88,23 @@ improve our ability to adapt rapidly and effectively to new information"
 Source: Lean Enterprise: How High performance organizations innovate at 
 scale: Chapter 8
 
+###### Example of breaking things up (Microservices)
+
+e-commerce application
+* Web front-end
+* catalog of products
+* inventory/stock management
+* shipping calculator
+* payment processor
+* billing/invoicing
+* recommendation engine
+* user profiles
+
+42 micro services instead of 1 app.  Deploy often
+
+source: http://www.slideshare.net/jpetazzo/containers-docker-and-microservices-the-terrific-trio
+
+
 ##### Continuous Integration
 "The practice of working in small batches and using automated tests to 
 detect and reject changes that introduce a regression."
