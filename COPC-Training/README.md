@@ -81,12 +81,14 @@ resources:
 * Image Preparation
   * cloud-init
 
-* Get images:
+* Image Demos:
   https://cloud-images.ubuntu.com/vivid/current/
 
 
 ## Deployment Use Cases
 
+* Application use cases
+* Application architecture
 * Chef Example
 Example from: https://cloudinit.readthedocs.org/en/latest/topics/examples.html
 
