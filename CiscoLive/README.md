@@ -196,3 +196,8 @@ Hopefully in this talk you gained:
 * An Understanding of the tools
 * How they work together
 
+## Books and Further Reading
+http://agilemanifesto.org
+Lean Software
+The Phoenix Project
+Lean Enterprise
