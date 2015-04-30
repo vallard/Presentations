@@ -155,9 +155,11 @@ Why Github shutdown Google Code
 * Team City
 
 ### Collaboration Tools
+* hipchat
+* Slack
 * Gerrit
 * trello 
-* hipchat
+* gitter
 
 ### Configuration management tools (What you thought this talk was about)
 * Audience Poll:  What are you using?
@@ -170,10 +172,15 @@ Why Github shutdown Google Code
   * Heat
 
 (Packer, Consul, ...)
+### Demo
+  Do a demo of Ansible deploying to COPC. 
 
 ### Tools for users
 * Vagrant
 * boot2docker
+
+### Logging Tools
+* logstash
 
 ## Part 3:  Architectures
 * Demo of Lawngnomed.com
