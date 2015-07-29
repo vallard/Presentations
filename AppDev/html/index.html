@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Application Delivery</title>
+
+		<meta name="description" content="App Presentation">
+		<meta name="author" content="Vallard Benincosa">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h3>Application Delivery</h3>
+					<p>
+						<small><a href="http://benincosa.com">Vallard Benincosa</a>
+              <br/>
+            <a href="http://twitter.com/vallard">@vallard</a>
+            <br/>
+            vbeninco@cisco.com
+            </small>
+					</p>
+				</section>
+
+
+				<section data-markdown>
+					<script type="text/template">
+# Three Ideas 
+* Optimize for Speed 
+* The Role of Operations is to provide APIs
+* Measure everything
+					</script>
+				</section>
+        <section>
+          <section>
+            <h1>1. Optimize for Speed</h1>
+          </section>
+				<section data-markdown>
+					<script type="text/template">
+# Old Rule
+You can only have 2 of the following at any time: 
+
+* Good
+* Fast
+* Cheap
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+# New Rule
+You only need fast.
+					</script>
+				</section>
+
+        <section>
+          <video src=https://youtube.com/embed/YoP0erdr7No?t=32m1s />
+        </section>
+
+				<section data-markdown>
+					<script type="text/template">
+## Benefits of Speed
+* Projects finish quicker, get to market faster,  -> Cheap
+* Make Good by shrinking Development Cycles -> Good
+					</script>
+				</section>
+        </section>
+
+        <section><!-- begin section 2 --> 
+        <section>
+          <h1>2. Provide APIs</h1>
+				</section>
+
+				<section>
+          <img src="images/aws.png" />
+				</section>
+    
+        <section data-markdown>
+## The Data Center is the Platform. 
+* Regardless of where the Data Center Exists.
+* IaaS is old news. 
+* Services are what people pay for. 
+* Microservices via container. 
+        </section>
+       
+        <section data-markdown>
+What's going on with PaaS?
+        </section>
+
+        <section>
+          <h1>Demo</h1>
+        </section>
+
+        </section> <!-- end section 2 --> 
+
+        <section> <!-- begin section 3 --> 
+          <section>
+            <h1>3. Measure Everything</h1>
+          </section>
+
+          <section data-markdown>
+Stop Listening to HiPPOs
+          </section> 
+          <section data-markdown>
+## Implement Manufacturing Principles to Operations
+* "The Goal" 
+* "The Phoenix Project"
+          </section> 
+        </section> <!-- End section 3 --> 
+
+        <section data-markdown>
+### Summary
+* Go Faster.  Your competition is. 
+* Implement APIs
+* Don't depend on HiPPOs.
+        </section>
+
+        <section>
+          <h1>Thank you!</h1>
+        </section> 
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
