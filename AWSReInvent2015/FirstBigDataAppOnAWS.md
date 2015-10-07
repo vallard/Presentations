@@ -136,3 +136,6 @@ Can create a website that can be hosted in S3.  $0.03 every month.  Uses lambda 
 Uses D3 
 
 See Palantir's Plottable-D3. 
+
+
+Costs $2.44 for everything we implemented!
