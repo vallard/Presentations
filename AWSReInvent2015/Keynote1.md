@@ -7,7 +7,7 @@
 * [New RDS backend with MariaDB](https://aws.amazon.com/blogs/aws/amazon-rds-update-mariadb-is-now-available/)
 * [AWS DMS: Database Migration Service](https://aws.amazon.com/dms/)
 * Schema Conversion Tool (part of DMS)
-* Web Application Firewall (WAF) (Announced earlier this week)
+* [Web Application Firewall (WAF)](https://aws.amazon.com/waf/) (Announced earlier this week)
 * [AWS Config Rules](https://aws.amazon.com/blogs/aws/aws-config-rules-dynamic-compliance-checking-for-cloud-resources/) - Set compliance rules for resources with triggers
 * [Amazon Inspector](https://aws.amazon.com/blogs/aws/amazon-inspector-automated-security-assessment-service/) - Detect and remediate security issues early and often
 
