@@ -127,3 +127,12 @@ Now load the data from the bucket into Redshift
 COPY accesslogs FROM 's3://myan-strata/access-log-processed' CREDENTIALS...
 ```
 
+Now we can run SQL queries against this. 
+
+### Pretty graphs
+
+Can create a website that can be hosted in S3.  $0.03 every month.  Uses lambda to grab data from RedShift. 
+
+Uses D3 
+
+See Palantir's Plottable-D3. 
