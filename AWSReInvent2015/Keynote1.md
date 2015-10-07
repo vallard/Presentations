@@ -2,8 +2,8 @@
 
 ## New Announcements: 
 
-* Amazon QuickStart
-* Amazon Snowball
+* [Amazon QuickStart](https://aws.amazon.com/quickstart/)
+* [Amazon Snowball](http://techcrunch.com/2015/10/07/amazon-launches-snowball-a-rugged-storage-appliance-for-importing-data-to-aws-by-fedex/) (This was pretty cool!)
 * New RDS backend with MariaDB
 * Database Migration Service
 * Schema Conversion Tool
@@ -130,7 +130,8 @@ Amazon Inspector: Automate Security assessment service that finds compliance iss
 
 ### 7. Freedom to Say Yes. 
 
-
+BS marketing fluff to just say that people can move to the cloud and that
+AWS is good. 
 
 
 ## Guest Speakers 
