@@ -4,6 +4,9 @@
 * Very good speaker, simplifys things very well. 
 * Everybody is on Slack around here. 
 
+### Biggest Takeaway
+Separate the storage from the compute processing. 
+
 There are a lot of tools with AWS for big data and focus on the business
 processing.  
 
