@@ -4,12 +4,14 @@
 
 * [Amazon QuickStart](https://aws.amazon.com/quickstart/)
 * [Amazon Snowball](http://techcrunch.com/2015/10/07/amazon-launches-snowball-a-rugged-storage-appliance-for-importing-data-to-aws-by-fedex/) (This was pretty cool!)
-* New RDS backend with MariaDB
-* Database Migration Service
-* Schema Conversion Tool
-* Web Application Firewall (WAF)
-* AWS Config Rules - Set compliance rules for resources with triggers
-* Amazon Inspector - Detect and remediate security issues early and often
+* [New RDS backend with MariaDB](https://aws.amazon.com/blogs/aws/amazon-rds-update-mariadb-is-now-available/)
+* [AWS DMS: Database Migration Service](https://aws.amazon.com/dms/)
+* Schema Conversion Tool (part of DMS)
+* Web Application Firewall (WAF) (Announced earlier this week)
+* [AWS Config Rules](https://aws.amazon.com/blogs/aws/aws-config-rules-dynamic-compliance-checking-for-cloud-resources/) - Set compliance rules for resources with triggers
+* [Amazon Inspector](https://aws.amazon.com/blogs/aws/amazon-inspector-automated-security-assessment-service/) - Detect and remediate security issues early and often
+
+Vallard Take: Snowball, QuickStart, Datbase migration tools, and Config rules are super cool.  Amazon is taking swings at Oracle here in a big way. 
 
 ## Introduction
 
