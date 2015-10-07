@@ -5,6 +5,10 @@
 
 ![S3 DeepDive and Best Practices](./images/s31.jpg)
 
+## Take Aways
+* S3 is the most amazing product: Serverless Infrastructure. 
+* Lifecycle capability saves costs
+
 ## New for 2015
 * Amazon S3 Standard-IA (Infrequent Access)
 * Event notifications
@@ -82,4 +86,47 @@ be replicated to a bucket in another region.
 Bucket A in one region, Bucket B in another region.  
 
 Cross Region replication policy is very easy.  (If its the same account)
+
+#### Demo
+* Create a role
+* Create a policy
+* Create versioning
+* Enable replication
+
+PUTS and DELETEs are replicated.  
+
+### V4 Enterprise Enablement 
+
+Amazon S3 VPC endpoints access Amazon S3 from your Amazon VPC using VPC endpoints. 
+* Don't have to manage NATs and Internet Gateways. 
+* Imporved throughput from VPC resources to Amazon S3
+  * High availability
+* Lower Cost by avoiding expensive NAT, Internet Gateways.  
+
+![S3 vpcs](./images/s32.jpg)
+
+Control access to buckets from specific VPCs.  Can allow only certain VPCs or deny several VPCs. 
+
+#### Demo
+
+Use Amazon WorkSpaces.  Creates desktop that has access only through certain VPC. 
+
+* Endpoints 
+  * Select VPC
+  * Policy to allow access which endpoints. 
+  * which Route tables it applies to. 
+  
+A new route is created in the VPC table.  The most specific route will win. 
+
+This will make it so certain access is denied. 
+
+### Security & Analysis
+
+Last part is to understand what is happening to the data
+* configuration
+* access
+* frequency
+
+CloudWatch: Alarm if specific API called. S3 metrics added as well. 
+CloudTrail: Track multiple services. Who's making changes.  
 
