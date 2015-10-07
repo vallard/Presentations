@@ -194,3 +194,6 @@ Stripe is for developers to integrate payments into their applications.
 "Our customers don't worry about payments, we don't worry about infrastructure"
 
 ### Joe Enzerillo EVP and CTO at MLB
+
+Cory and I walked out at this point, but it was really cool to see how 
+MLB has transformed to a digital company. 
