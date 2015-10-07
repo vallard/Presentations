@@ -35,7 +35,7 @@ more compute capacity than largest 10 competitors combined.
 * ISV partners have migrated apps to AWS.  Large environment. 
 * AWS marketplace: 2300 listings, 800 ISVs, 143M EC2 Instance Hours
 
-## Why are customers miving to the cloud so fast? 
+## Why are customers moving to the cloud so fast? 
 * move capital to variable cost is better. 
 * agility 
 * lower variable expense than could be achieved on their own. 
