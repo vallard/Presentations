@@ -6,6 +6,8 @@
 ## Takeaway
 
 * CHeck out Swagger import and client SDK
+* API Gateway kills Parse
+* Dry, but wow!  Such good information.  Very technical. 
 
 ## Outline
 
@@ -105,4 +107,29 @@ Set up responses for 400 and 200
 Mapping templates are a powerful tool: 
 [More information on mapping templates](http://amzn.to/1L1hSF5)
 
+## Retrieving AWS credentials
 
+Amazon Cognito is an identity management service.  Can integrate with Facebook, 
+or your own that you create with AWS. 
+
+* Manage authenticated and guest users across identity providers
+* Securely access AWS services
+* Syncronize across the cloud
+
+![retreive credentials](./images/api2.jpg)
+
+Code goes through and searches through dynamoDB for user, then authenticates with
+cognito. Identity is saved.  This is then saved into creds and returned to the person. 
+
+Different roles show that API gateway function can call DynamoDB, API Gateway, or Lambda
+This allows the infrastructure to call other AWS services in authenticated, trackable way. 
+
+## Generated SDK benefits
+
+Creates boiler plate code that can be used for the applications.  
+
+## Conclusion
+
+1. AWS Lambda + API Gateway means no infrastructure
+
+[Download the sample code](https://github.com/awslabs/api-gateway-secure-pet-store)
