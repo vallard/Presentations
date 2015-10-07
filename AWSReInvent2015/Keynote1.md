@@ -2,6 +2,7 @@
 
 ## New Announcements: 
 
+* [Kinesis Firehose](https://aws.amazon.com/blogs/aws/amazon-kinesis-firehose-simple-highly-scalable-data-ingestion/)
 * [Amazon QuickStart](https://aws.amazon.com/quickstart/)
 * [Amazon Snowball](http://techcrunch.com/2015/10/07/amazon-launches-snowball-a-rugged-storage-appliance-for-importing-data-to-aws-by-fedex/) (This was pretty cool!)
 * [New RDS backend with MariaDB](https://aws.amazon.com/blogs/aws/amazon-rds-update-mariadb-is-now-available/)
