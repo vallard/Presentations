@@ -63,3 +63,10 @@ REVOKED command is not REVOKABLE :-)
 ## Manging Things
 
 by setting policies users can manage certificate in the AWS console. 
+
+## Identity Federation
+
+people are bad at using passwords.  Smart cards work to do this with a set of keys. This is already a service in AWS and this now works in IoT. 
+
+
+

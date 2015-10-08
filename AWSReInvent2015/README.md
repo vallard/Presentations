@@ -25,4 +25,5 @@
 | ------------  | -------------------------------- |
 | 9:00 - 10:30  | [Werner Vogel's Keynote](./Keynote2.md)         |
 | 11:00 - 11:45  | [AWS CloudFormation](./CloudFormation.md)         |
-| 1:30PM        | [AWS IoT DeepDive](./IoT.md) |
+| 1:30PM - 2:30       | [AWS IoT DeepDive](./IoT.md) |
+| 2:45 - 3:45 | [EMR DeepDive](./EMRDeepDive.md) |
