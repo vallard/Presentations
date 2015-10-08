@@ -132,3 +132,18 @@ Used a hash algorithm that used 100 buckets of where the data files go. That gav
 * prefer smaller cluster of larger nodes: 4XL
 * millions of partitions, more memory is needed for the master node (HS2)
 * Use CLI based scripts rather than console -> Infra is code
+
+36% performance improvement compared to Greenplum in performance. 
+
+#### Right size cluster
+* Size cluster to complete within 10 minutes of hour boundary to optimize $$
+* Use spot 
+* Use on demand or reserved at appropriate times. 
+* Always on use case: Interactive analytics
+  * Reserve Master and Core nodes
+  * try to use spot instances
+* Ration of Core to Task of 1:5 to avoid bottlenecks. 
+* Bidding Spot above the On Demand price to ensure greater stability
+
+
+
