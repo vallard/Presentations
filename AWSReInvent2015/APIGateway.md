@@ -8,6 +8,8 @@
 * CHeck out Swagger import and client SDK
 * API Gateway kills Parse
 * Dry, but wow!  Such good information.  Very technical. 
+* Stateless execution is the best way to scale. 
+* No VPC integration
 
 ## Outline
 
