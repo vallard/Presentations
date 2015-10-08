@@ -89,3 +89,16 @@ Always compress data files on S3
 * Only pay for compute when you need it. 
 * Use EC2 Spot instances and save > 80%
 * Use EC2 Reserved instances for steady workloads.
+
+## EMR & Anlytics with FINRA
+
+* 75 billion events per day
+* $600 billion every day. 
+
+Rows are very wide.  They have 5PB of data.  The idea is they look for market manipulation, inside trading, etc. 
+
+Insider trading case of 32 inside trading.  Newswires services got $100 million in illegal profits. 
+
+![EMR FINRA](./images/EMR1.jpg)
+
+
