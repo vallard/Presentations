@@ -101,4 +101,34 @@ Insider trading case of 32 inside trading.  Newswires services got $100 million 
 
 ![EMR FINRA](./images/EMR1.jpg)
 
+* S3 is the durable system of record
+* FINRA Data Manager is open sourced
+* Text format for archival copies on S3 & Amazon Glacier
+* Compressed with bzip
 
+Have to save data for 7 years
+20,000 ticker signals
+
+Used a hash algorithm that used 100 buckets of where the data files go. That gave them 250 MB of data instead of smaller datasets. 
+
+#### Data security
+
+* encryption of all data both at-rest, and in-transit
+* S3 server-side encryption 
+  * Came to the conclusion that security is better in the cloud than on prem. 
+* Encrypt ephemeral storage on master, core, and tasks node
+* Use security groups to make sure only client apps talk to master. 
+
+#### Why EMR? 
+
+* Cost.  Each table is 600 TB. Instead of storing on EC2 instances goes from $4.5 million/year to S3 -> $120k/year
+* Data locality is desirable but not practical for our scale
+  * 15% - 20%  more time to use EMR but worth it for management headache. 
+
+#### Adaptation
+
+* take advantage of new instance types
+* find the right types for workloads
+* prefer smaller cluster of larger nodes: 4XL
+* millions of partitions, more memory is needed for the master node (HS2)
+* Use CLI based scripts rather than console -> Infra is code
