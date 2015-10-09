@@ -7,7 +7,7 @@
 
 ## Tuesday
 
-* 9AM - 5PM  [IoT bootcamp](./IoTBootCamp)
+| 9AM - 5PM |   [IoT bootcamp](./IoTBootCamp) |
 
 ## Wednesday
 
