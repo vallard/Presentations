@@ -30,7 +30,7 @@ shard is available for 24 hours.
 * Create a Stream
 * Create AWS Lambda Roles for all the services 
 * Use CloudFormation to define more roles. 
-  * http://bootcamp2015-mobile- iot.s3.amazonaws.com/bundle/Desktop/Bootcamp2015- CognitoAuthenticatedPolicies-CloudFormation.template
+  * [Sample Cloud Formation ](http://bootcamp2015-mobile-iot.s3.amazonaws.com/bundle/Desktop/Bootcamp2015- CognitoAuthenticatedPolicies-CloudFormation.template)
 
 ### Edison 
 
