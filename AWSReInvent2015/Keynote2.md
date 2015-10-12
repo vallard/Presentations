@@ -29,7 +29,7 @@
 
 ## New whitepaper to help people work better
 
-AWS Well-Architected Framework
+[AWS Well-Architected Framework](https://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 
 ## The Cloud Removes Constraints
 
